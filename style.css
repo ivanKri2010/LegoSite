@@ -1,0 +1,221 @@
+.i{
+    width: 900px;
+}
+
+.d{
+    border: solid 4px rgba(255, 148, 17, 0.929);
+    width: 400px;
+    height: 480px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 50px;
+}
+
+.G{
+    padding-top: 30px;
+    font-size: 25px;
+
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+}
+
+.k{
+
+    width: 400px;
+}
+.k a{
+    text-align: center;
+}
+.hgf{
+    text-align: center;
+
+}
+
+.poi{
+    border: solid 2px red;
+    margin-top: 5px;
+    padding-left: 45%;
+    
+}
+
+.tyu{
+    margin-top: 5px;
+    padding-left: 50%;
+}
+
+.wer{
+    margin-top: 5px;
+    padding-left: 19%;
+}
+
+.menu{
+    height: 50px;
+    background-color: rgba(255, 148, 17, 0.929);
+}
+
+.list li{
+    margin-left: 50px;
+    display: inline-block;
+    padding: 8px;
+}
+
+
+
+.list li{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.list a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+}
+a:last-child{
+    float: right;
+    margin-right: 100px;
+}
+.list li:hover{
+    /* height: 34px; */
+    background-color: rgba(233, 233, 233, 0.919);
+    color: black;
+}
+
+li:hover a{
+    color: rgb(0, 0, 0);
+}
+
+.fr{
+    text-align: center;
+}
+
+/* .friends{
+    text-align: center;
+    display: inline-block;
+
+} */
+
+.desc{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    animation: move 1s ease-in-out;
+}
+
+@keyframes move {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+
+.m{
+    text-align: center;
+}
+
+.k img{
+    transition: 2s;
+}
+
+.k img:hover{
+    transform: scale(1.2);
+}
+
+
+.btr{
+    border: solid 4px rgba(255, 148, 17, 0.929);
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 2px 2px 2px 2px;
+    font-size: 20px;
+}
+
+
+.btr{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    animation: move 1s ease-in-out;
+}
+
+@keyframes move {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+
+
+
+.form{
+    border: 4px solid rgba(255, 148, 17, 0.929);
+    width: 300px;
+    font-size: 20px;
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.form input[type='submit']{
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    border: 4px solid rgba(255, 148, 17, 0.929);
+    margin-top: 10px;
+}
+
+.form{
+   
+    justify-content: space-evenly;
+    animation: move 1s ease-in-out;
+}
+
+@keyframes move {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+
+
+.rfv{
+    border: 4px solid rgba(255, 148, 17, 0.929);
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.form input[type='checkbox']{
+    border: 2px solid rgba(255, 148, 17, 0.929);
+}
+
+
+
+.sl{
+text-align: center;
+}
+
+.img2{
+    height: 200px;
+    margin-top: 90px;
+}
